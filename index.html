@@ -32,8 +32,12 @@
             <div class="songDiv">
                 <div id="wishyoulove" class = "song">
                     <p class="songCaption"><b>"Wish You Love"</b></p>
-                    <audio src="audio/wishyoulove_trimmed.mp3" controls autoplay></audio>
+                    <audio controls preload="auto">
+                        <source src="audio/wishyoulove_trimmed.mp3.mp3" type="audio/mp3"> 
+                        <source src="audio/wishyoulove_trimmed.ogg.ogg" type="audio/ogg"> 
+                    </audio>
                 </div>
+                
                 <div id="valentine" class = "song">
                     <p class="songCaption"><b>"Valentine"</b></p>
                     <audio src="audio/valentine_trimmed.mp3" controls autoplay></audio>
